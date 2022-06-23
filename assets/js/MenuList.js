@@ -1,4 +1,4 @@
-endpoint = `https://Docs-API.rosie-04.repl.co`
+endpoint = `http://nguyenhaidang.ml/`
 message_list = [{
     icon: 'fa-solid fa-star-exclamation',
     title: 'Trang web bắt đầu hoạt động',
