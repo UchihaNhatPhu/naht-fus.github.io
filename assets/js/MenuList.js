@@ -1,4 +1,4 @@
-endpoint = `https://api.phamvandien.xyz`
+endpoint = `https://Docs-API.rosie-04.repl.co`
 message_list = [{
     icon: 'fa-solid fa-star-exclamation',
     title: 'Trang web bắt đầu hoạt động',
@@ -178,7 +178,7 @@ item_list = [{
         name: 'Facebook',
         icon: 'fa-brands fa-facebook',
         item: [{
-            "url": endpoint + '/finduid?url=https://www.facebook.com/PhamVanDien.User/',
+            "url": endpoint + '/finduid?url=https://www.facebook.com/NHD.JRT.262/',
             "name": "Find UID"
         }]
     },
@@ -187,7 +187,7 @@ item_list = [{
         icon: 'fas fa-user-headset',
         item: [{
             event: 'DO NOT SPAM',
-            url: 'https://www.facebook.com/PhamVanDien.User/',
+            url: 'https://www.facebook.com/NHD.JRT.262/',
             name: 'Facebook'
         }]
     }
