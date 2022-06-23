@@ -1,4 +1,4 @@
-endpoint = `https://web-api.nguyenhaidang.ml/`
+endpoint = `https://docs-api.nguyenhaidang.ml/`
 message_list = [{
     icon: 'fa-solid fa-star-exclamation',
     title: 'Trang web bắt đầu hoạt động',
