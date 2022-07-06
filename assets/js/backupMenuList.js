@@ -259,7 +259,72 @@ item_list = [
                 "event": 'HOT',
                 "url": endpoint + '/images/anime',
                 "name": "Anime"
-            }   
+            },
+            {
+                "event": 'HOT',
+                "url": endpoint + '/images/capdoi',
+                "name": "Cặp đôi"
+            },
+            {
+                "event": 'HOT',
+                "url": endpoint + '/images/cosplay',
+                "name": "Cosplay"
+            },
+            {
+                "event": 'HOT',
+                "url": endpoint + '/images/japan',
+                "name": "Japan"
+            },
+            {
+                "event": 'HOT',
+                "url": endpoint + '/images/gái',
+                "name": "Gái xinh"
+            },
+            {
+                "event": 'NSFW',
+                "url": endpoint + '/images/hana',
+                "name": "Hana"
+            },
+            {
+                "event": 'NSFW',
+                "url": endpoint + '/images/instagram',
+                "name": "instargram"
+            },
+            {
+                "event": 'HOT',
+                "url": endpoint + '/images/jack',
+                "name": "Jack (J97)"
+            },
+            {
+                "event": 'HOT',
+                "url": endpoint + '/images/jimmy',
+                "name": "Jimmy"
+            },
+             {
+                "event": 'HOT',
+                "url": endpoint + '/images/khanhhuyen',
+                "name": "Khánh Huyền"
+            },
+            {
+                "event": 'HOT',
+                "url": endpoint + '/images/lnd',
+                "name": "Linh Ngọc Đàm"
+            },
+            {
+                "event": 'NSFW',
+                "url": endpoint + '/images/gaiditbu',
+                "name": "Gái mông bự"
+            },
+            {
+                "event": 'HOT',
+                "url": endpoint + '/images/ngoctrinh',
+                "name": "Ngọc Trinh"
+            },
+            {
+                "event": 'NSFW',
+                "url": endpoint + '/images/twitter',
+                "name": "Twitter"
+            }
         ]
     },
     {
