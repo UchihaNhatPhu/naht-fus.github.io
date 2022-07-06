@@ -5,7 +5,26 @@ message_list = [{
     timing: '1655701877368'
 }];
 
-item_list = [{
+item_list = [
+    {
+        name: 'Facebook',
+        icon: 'fa-brands fa-facebook',
+        item: [{
+            "url": endpoint + '/finduid?url=https://www.facebook.com/PhamVanDien.User/',
+            "name": "Find UID"
+        },
+        {
+            "event": 'Sắp có',
+            "url": endpoint + '/info?id=100004253741257',
+            "name": "Get Info"
+        },
+        {
+            "url": endpoint + '/downloadfb?url=https://www.facebook.com/watch?v=587760489446657',
+            "name": "Tải video từ Facebook"
+        }
+        ]
+    },
+    {
         name: 'TikTok',
         icon: 'fa-brands fa-tiktok',
         item: [{
@@ -19,6 +38,81 @@ item_list = [{
             {
                 "url": endpoint + "/tiktok?username=ltkh2004",
                 "name": "TikTok Info User"
+            }
+        ]
+    },
+    {
+        name: 'Tạo avatar anime',
+        icon: 'fa-solid fa-user-tie',
+        item: [{
+                "url": endpoint + "/taoanhdep/list",
+                "name": "Danh sách nhân vật"
+            },
+            {
+                "url": endpoint + "/taoanhdep/search?type=name&name=nobita",
+                "name": "Tìm kiếm nhân vật theo tên"
+            },
+            {
+                "url": endpoint + "/taoanhdep/search?type=id&id=30",
+                "name": "Tìm kiếm nhân vật theo ID"
+            },
+            {
+                "url": endpoint + "/taoanhdep/search?type=movie&movie=Conan",
+                "name": "Tìm kiếm nhân vật theo tên phim"
+            },
+            {
+                "url": endpoint + "/taoanhdep/avatarwibu?id=1&chu_nen=Phạm Văn Diện&chu_ky=d-jukie",
+                "name": "Tạo avatar"
+            }
+        ]
+    },
+    {
+        name: 'Code',
+        icon: 'fa-solid fa-code',
+        item: [{
+                "url": 'https://www.phamvandien.xyz/deobfuscate/',
+                "name": "Deobfuscate"
+            },
+            {
+                "url": 'https://obfuscator.io/',
+                "name": "Obfuscate"
+            }
+        ]
+    },
+    {
+        name: 'Canvas',
+        icon: 'fa-solid fa-diagram-lean-canvas',
+        item: [{
+                "url": endpoint + "/blink?id=100068432539116,100004253741257&delay=500",
+                "name": "Blink"
+            },
+            {
+                "url": endpoint + "/fbcover/v1?name=Phạm Văn Diện&color=no&address=VietNam&email=exam@gmail.com&subname=D-Jukie&sdt=0325874&uid=100004253741257",
+                "name": "Facebook Cover v1"
+            },
+            {
+                "url": endpoint + "/fbcover/v2?name=Phạm Văn Diện&color=no&subname=D-Jukie&id=100",
+                "name": "Facebook Cover v2"
+            },
+            {
+                "url": endpoint + "/fbcover/v3?name=Phạm Văn Diện&birthday=18/03&love=Dương Dươngg&location=VietNam&hometown=VietNam&follow=15000000&gender=Nam&uid=100004253741257",
+                "name": "Facebook Cover v3"
+            },
+            {
+                "url": endpoint + "/tiki?text=Phạm Văn Diện",
+                "name": "Đi cùng Tiki"
+            },
+            {
+                "url": endpoint + "/thuphap?id=1&sodong=1&dong_1=Pham Van Dien",
+                "name": "Chữ Thư Pháp"
+            },
+            {
+                "url": endpoint + "/giangsinh?text=Văn Diện",
+                "name": "Giáng Sinh"
+            },
+            {
+                "url": endpoint + "/shopmaihuong?text1=Phạm Văn Diện&text2=03322587454",
+                "name": "Shop Mike Hường"
             }
         ]
     },
@@ -175,19 +269,11 @@ item_list = [{
         ]
     },
     {
-        name: 'Facebook',
-        icon: 'fa-brands fa-facebook',
-        item: [{
-            "url": endpoint + '/finduid?url=https://www.facebook.com/NHD.JRT.262/',
-            "name": "Find UID"
-        }]
-    },
-    {
         name: 'Liên hệ Admin',
         icon: 'fas fa-user-headset',
         item: [{
             event: 'DO NOT SPAM',
-            url: 'https://www.facebook.com/NHD.JRT.262/',
+            url: 'https://www.facebook.com/PhamVanDien.User/',
             name: 'Facebook'
         }]
     }
