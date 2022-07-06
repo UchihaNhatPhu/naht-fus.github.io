@@ -178,23 +178,88 @@ item_list = [
             {
                 "event": 'NSFW',
                 "url": endpoint + '/images/du',
-                "name": "NSFW 1"
+                "name": "Dú"
             },
             {
                 "event": 'NSFW',
                 "url": endpoint + '/images/girl',
-                "name": "NSFW 2"
+                "name": "Girl"
             },
             {
                 "event": 'NSFW',
                 "url": endpoint + '/images/mong',
-                "name": "NSFW 3"
+                "name": "Mông"
             },
             {
+                "event": 'HOT',
+                "url": endpoint + '/images/japanloli',
+                "name": "Japan Loli"
+            },
+            {
+                "event": 'HOT',
+                "url": endpoint + '/images/aqua',
+                "name": "Aqua"
+            },
+            {
+                "event": 'HOT',
+                "url": endpoint + '/images/chitanda',
+                "name": "Chitanda"
+            },
+            {
+                "event": 'HOT',
+                "url": endpoint + '/images/kana',
+                "name": "Kana"
+            },
+            {
+                "event": 'HOT',
+                "url": endpoint + '/images/kurumi',
+                "name": "Kurumi"
+            },
+            {
+                "event": 'HOT',
+                "url": endpoint + '/images/loli',
+                "name": "Anime Loli"
+            },  
+            {
+                "event": 'HOT',
+                "url": endpoint + '/images/lucy',
+                "name": "Lucy"
+            },
+            {
+                "event": 'HOT',
+                "url": endpoint + '/images/Mirai',
+                "name": "Mirai"
+            },  
+            {
                 "event": 'NSFW',
+                "url": endpoint + '/images/Naughty',
+                "name": "Naughty"
+            },
+            {
+                "event": 'NSFW 18+',
+                "url": endpoint + '/images/sex',
+                "name": "Sex"
+            },
+            {
+                "event": 'HOT',
+                "url": endpoint + '/images/rem',
+                "name": "Rem"
+            },
+            {
+                "event": 'HOT',
+                "url": endpoint + '/images/sagiri',
+                "name": "Sagiri"
+            },
+            {
+                "event": 'HOT',
+                "url": endpoint + '/images/umaru',
+                "name": "Umaru"
+            },   
+            {
+                "event": 'HOT',
                 "url": endpoint + '/images/anime',
                 "name": "Anime"
-            }
+            }   
         ]
     },
     {
