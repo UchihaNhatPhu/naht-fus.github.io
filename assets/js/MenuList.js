@@ -70,7 +70,7 @@ item_list = [
         name: 'Code',
         icon: 'fa-solid fa-code',
         item: [{
-                "url": 'https://www.phamvandien.xyz/deobfuscate/',
+                "url": 'https://deobfuscate.nguyenhaidang.ml/',
                 "name": "Deobfuscate"
             },
             {
