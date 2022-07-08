@@ -133,12 +133,12 @@ function holiday(day, month) {
 		//-- pengunjung visitor length
 		if (localStorage.getItem('Pengunjung')) {
 			setInterval(function() {
-				fetch("https://docs-api.nguyenhaidang.ml/total_request?admin=true").then(res=>res.json()).then(res=> {
+				fetch("https://web-api.nguyenhaidang.ml/docs/total_request?admin=true").then(res=>res.json()).then(res=> {
 					tag_pengunjung.innerHTML = res.total+" <small>người</small>";
 				});
 			}, 2500);
 		} else {
-			fetch("https://docs-api.nguyenhaidang.ml/total_request").then(res=>res.json()).then(res=> {
+			fetch("https://web-api.nguyenhaidang.ml/docs/total_request").then(res=>res.json()).then(res=> {
 				localStorage.setItem('Pengunjung', 'true');
 				tag_pengunjung.innerHTML = res.total+" <small>người</small>";
 			});
