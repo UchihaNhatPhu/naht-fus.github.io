@@ -61,13 +61,13 @@ item_list = [
                 "name": "Tìm kiếm nhân vật theo tên phim"
             },
             {
-                "url": endpoint + "/taoanhdep/avatarwibu?id=1&chu_nen=Nguyễn Hải Đăng&chu_ky=J-JRT",
-                "name": "Tạo avatar"
-            },
-            {
                 "url": endpoint + "/taoanhdep/data",
                 "name": "Dữ liệu avatar anime"
-            },   
+            },      
+            {
+                "url": endpoint + "/taoanhdep/avatarwibu?id=1&chu_nen=Nguyễn Hải Đăng&chu_ky=J-JRT",
+                "name": "Tạo avatar"
+            }
         ]
     },
     {
