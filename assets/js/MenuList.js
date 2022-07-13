@@ -7,6 +7,19 @@ message_list = [{
 
 item_list = [
     {
+        name: 'APIKEY',
+        icon: 'fa-solid fa-pen-alt',
+        item: [{
+            "url": endpoint + '/apikey?type=register&name=${name}',
+            "name": "Tạo APIKEY Free"
+        },
+        {
+            "url": endpoint + '/apikey?type=checker&apikey=${apikey}',
+            "name": "Check APIKEY"
+        }
+        ]
+    },
+    {
         name: 'Facebook',
         icon: 'fa-brands fa-facebook',
         item: [{
