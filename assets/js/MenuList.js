@@ -130,21 +130,8 @@ item_list = [
         ]
     },
     {
-        name: 'SoundCloud',
-        icon: 'fa-brands fa-soundcloud',
-        item: [{
-                "url": endpoint + '/soundcloud?search=son tung',
-                "name": "SoundCloud Search"
-            },
-            {
-                "url": endpoint + '/soundcloud?url=https://soundcloud.com/sontungmtp-music/ch-ng-ta-c-a-hi-n-t-i',
-                "name": "SoundCloud Downloader"
-            }
-        ]
-    },
-    {
         name: 'Mail',
-        icon: 'fa-brands fa-mail',
+        icon: 'fa-brands fa-email',
         item: [{
                 "url": endpoint + '/mail10p/domain',
                 "name": "List Domain"
