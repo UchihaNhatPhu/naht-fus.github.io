@@ -1,4 +1,4 @@
-endpoint = `https://docs-api.nguyenhaidang.ml/`
+endpoint = `https://docs-api.nguyenhaidang.ml`
 message_list = [{
     icon: 'fa-solid fa-star-exclamation',
     title: 'Trang web bắt đầu hoạt động',
@@ -130,6 +130,36 @@ item_list = [
         ]
     },
     {
+        name: 'SoundCloud',
+        icon: 'fa-brands fa-soundcloud',
+        item: [{
+                "url": endpoint + '/soundcloud?search=son tung',
+                "name": "SoundCloud Search"
+            },
+            {
+                "url": endpoint + '/soundcloud?url=https://soundcloud.com/sontungmtp-music/ch-ng-ta-c-a-hi-n-t-i',
+                "name": "SoundCloud Downloader"
+            }
+        ]
+    },
+    {
+        name: 'Mail',
+        icon: 'fa-brands fa-mail',
+        item: [{
+                "url": endpoint + '/mail10p/domain',
+                "name": "List Domain"
+            },
+            {
+                "url": endpoint + '/mail10p/get?email=emall@domain&apikey=',
+                "name": "Get Email"
+            },
+            {
+                "url": endpoint + '/mail10p/check?id_mail=id_mail&apikey=',
+                "name": "Check Email"
+            }   
+        ]
+    },
+    {
         name: 'Youtube',
         icon: 'fa-brands fa-youtube',
         item: [{
@@ -178,152 +208,22 @@ item_list = [
             {
                 "event": 'NSFW',
                 "url": endpoint + '/images/du',
-                "name": "Dú"
+                "name": "NSFW 1"
             },
             {
                 "event": 'NSFW',
                 "url": endpoint + '/images/girl',
-                "name": "Girl"
+                "name": "NSFW 2"
             },
             {
                 "event": 'NSFW',
                 "url": endpoint + '/images/mong',
-                "name": "Mông"
+                "name": "NSFW 3"
             },
-            {
-                "event": 'HOT',
-                "url": endpoint + '/images/japanloli',
-                "name": "Japan Loli"
-            },
-            {
-                "event": 'HOT',
-                "url": endpoint + '/images/aqua',
-                "name": "Aqua"
-            },
-            {
-                "event": 'HOT',
-                "url": endpoint + '/images/chitanda',
-                "name": "Chitanda"
-            },
-            {
-                "event": 'HOT',
-                "url": endpoint + '/images/kana',
-                "name": "Kana"
-            },
-            {
-                "event": 'HOT',
-                "url": endpoint + '/images/kurumi',
-                "name": "Kurumi"
-            },
-            {
-                "event": 'HOT',
-                "url": endpoint + '/images/loli',
-                "name": "Anime Loli"
-            },  
-            {
-                "event": 'HOT',
-                "url": endpoint + '/images/lucy',
-                "name": "Lucy"
-            },
-            {
-                "event": 'HOT',
-                "url": endpoint + '/images/Mirai',
-                "name": "Mirai"
-            },  
             {
                 "event": 'NSFW',
-                "url": endpoint + '/images/Naughty',
-                "name": "Naughty"
-            },
-            {
-                "event": 'NSFW 18+',
-                "url": endpoint + '/images/sex',
-                "name": "Sex"
-            },
-            {
-                "event": 'HOT',
-                "url": endpoint + '/images/rem',
-                "name": "Rem"
-            },
-            {
-                "event": 'HOT',
-                "url": endpoint + '/images/sagiri',
-                "name": "Sagiri"
-            },
-            {
-                "event": 'HOT',
-                "url": endpoint + '/images/umaru',
-                "name": "Umaru"
-            },   
-            {
-                "event": 'HOT',
                 "url": endpoint + '/images/anime',
                 "name": "Anime"
-            },
-            {
-                "event": 'HOT',
-                "url": endpoint + '/images/capdoi',
-                "name": "Cặp đôi"
-            },
-            {
-                "event": 'HOT',
-                "url": endpoint + '/images/cosplay',
-                "name": "Cosplay"
-            },
-            {
-                "event": 'HOT',
-                "url": endpoint + '/images/japan',
-                "name": "Japan"
-            },
-            {
-                "event": 'HOT',
-                "url": endpoint + '/images/gái',
-                "name": "Gái xinh"
-            },
-            {
-                "event": 'NSFW',
-                "url": endpoint + '/images/hana',
-                "name": "Hana"
-            },
-            {
-                "event": 'NSFW',
-                "url": endpoint + '/images/instagram',
-                "name": "instargram"
-            },
-            {
-                "event": 'HOT',
-                "url": endpoint + '/images/jack',
-                "name": "Jack (J97)"
-            },
-            {
-                "event": 'HOT',
-                "url": endpoint + '/images/jimmy',
-                "name": "Jimmy"
-            },
-             {
-                "event": 'HOT',
-                "url": endpoint + '/images/khanhhuyen',
-                "name": "Khánh Huyền"
-            },
-            {
-                "event": 'HOT',
-                "url": endpoint + '/images/lnd',
-                "name": "Linh Ngọc Đàm"
-            },
-            {
-                "event": 'NSFW',
-                "url": endpoint + '/images/gaiditbu',
-                "name": "Gái mông bự"
-            },
-            {
-                "event": 'HOT',
-                "url": endpoint + '/images/ngoctrinh',
-                "name": "Ngọc Trinh"
-            },
-            {
-                "event": 'NSFW',
-                "url": endpoint + '/images/twitter',
-                "name": "Twitter"
             }
         ]
     },
@@ -403,7 +303,7 @@ item_list = [
         icon: 'fas fa-user-headset',
         item: [{
             event: 'DO NOT SPAM',
-            url: 'https://www.facebook.com/NHD.JRT.262/',
+            url: 'https://www.facebook.com/PhamVanDien.User/',
             name: 'Facebook'
         }]
     }
