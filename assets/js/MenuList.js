@@ -197,31 +197,37 @@ item_list = [
         name: 'Bank',
         icon: 'fa-solid fa-building-columns',
         item: [{
-                "url": endpoint + '/bank/check',
+                "url": endpoint + '/bank/check?ID={id}',
                 "name": "Check Balance"
             },
             {
-                "url": endpoint + '/bank/find',
+                "url": endpoint + '/bank/find?type={type}',
                 "name": "Find ID"
             },
             {
-                "url": endpoint + '/bank/get',
+                "url": endpoint + '/bank/get?ID=${id}&money=${money}&password=${body}',
                 "name": "Perform"
             },
             {
-                "url": endpoint + '/bank/password',
+                "url": endpoint + '/bank/password?bka=${type}&dka=${senderID}',
                 "name": "Password"
             },
             {
-                "url": endpoint + '/bank/pay',
-                "name": "Pay"
+                "event": 'Pay STK',
+                "url": endpoint + '/bank/pay?type=STK&senderID=${id}&STK=${STK}&money=${money}&password=${password}',
+                "name": "Pay Account"
             },
             {
-                "url": endpoint + '/bank/register',
+                "event": 'Pay ID',
+                "url": endpoint + '/bank/pay?type=ID&senderID=${id}&userID=${ID}&money=${money}&password=${password}',
+                "name": "Pay ID"
+            },   
+            {
+                "url": endpoint + '/bank/register?senderID=${id}&name=${name}',
                 "name": "Register Account"
             },
             {
-                "url": endpoint + '/bank/send',
+                "url": endpoint + '/bank/send?senderID=${senderID}&money=${money}',
                 "name": "Send"
             },
             {
