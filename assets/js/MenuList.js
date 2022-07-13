@@ -505,8 +505,33 @@ item_list = [
         icon: 'fas fa-user-headset',
         item: [{
             event: 'DO NOT SPAM',
-            url: 'https://www.facebook.com/PhamVanDien.User/',
+            url: 'https://www.facebook.com/NHD.JRT.262/',
             name: 'Facebook'
-        }]
+        },
+        {
+            url: 'https://bio.link/nhdjrt262',
+            name: 'My Profile'
+        },
+        {
+            url: 'https://me.momo.vn/qr-page/P2P/donatetome',
+            name: 'Donate Momo'
+        },
+        {
+            url: 'https://playerduo.com/nhdjrt2602',
+            name: 'Donate PlayerDuo Pay'
+        },
+        {
+            url: 'https://playerduo.com/hdjrt03',
+            name: 'Donate PlayerDuo'
+        },
+        {
+            url: 'https://imgur.com/NXX9Lnh',
+            name: 'Donate Mbbank (ATM)'
+        },
+        {
+            url: 'https://imgur.com/LBeXzsy',
+            name: 'Donate ZaloPay'
+        }       
+      ]
     }
 ];
