@@ -195,7 +195,7 @@ item_list = [
     },
     {
         name: 'Bank',
-        icon: 'fa-solid fa-building-columns',
+        icon: 'fa-solid fa-money-check-dollar fa-flip',
         item: [{
                 "url": endpoint + '/bank/check?ID={id}',
                 "name": "Check Balance"
