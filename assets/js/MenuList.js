@@ -121,22 +121,6 @@ item_list = [
         ]
     },
     {
-        name: 'Mail',
-        icon: 'fa-brands fa-mail',
-        item: [{
-                "url": endpoint + '/mail10p/domain',
-                "name": "List Domain"
-            },
-            {
-                "url": endpoint + '/mail10p/get?email=emall@domain&apikey=',
-                "name": "Get Email"
-            },
-                "url": endpoint + '/mail10p/check?id_mail=id_mail&apikey=',
-                "name": "Check Mail"
-            }   
-        ]
-    },
-    {
         name: 'SoundCloud',
         icon: 'fa-brands fa-soundcloud',
         item: [{
