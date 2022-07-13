@@ -131,7 +131,7 @@ item_list = [
     },
     {
         name: 'Email',
-        icon: 'fa-brands fa-email',
+        icon: 'fa-brands fa-envelope',
         item: [{
                 "url": endpoint + '/mail10p/domain',
                 "name": "List Domain"
