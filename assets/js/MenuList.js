@@ -509,6 +509,14 @@ item_list = [
             name: 'Facebook'
         },
         {
+            url: 'https://zalo.me/0396049649',
+            name: 'Zalo'
+        },
+        {
+            url: 'https://t.me/nhdjrt262',
+            name: 'Telegram'
+        },       
+        {
             url: 'https://bio.link/nhdjrt262',
             name: 'My Profile'
         },
