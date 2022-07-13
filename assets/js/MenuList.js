@@ -188,10 +188,46 @@ item_list = [
                 "name": "Get Video Details"
             },
             {
-                "event": 'Some Error',
                 "url": endpoint + '/youtube?downloadVideo=Jk38OqdAQxc',
                 "name": "Youtube Downloader"
             }
+        ]
+    },
+    {
+        name: 'Bank',
+        icon: 'fa-thin fa-building-columns',
+        item: [{
+                "url": endpoint + '/bank/check',
+                "name": "Check Balance"
+            },
+            {
+                "url": endpoint + '/bank/find',
+                "name": "Find ID"
+            },
+            {
+                "url": endpoint + '/bank/get',
+                "name": "Perform"
+            },
+            {
+                "url": endpoint + '/bank/password',
+                "name": "Password"
+            },
+            {
+                "url": endpoint + '/bank/pay',
+                "name": "Pay"
+            },
+            {
+                "url": endpoint + '/bank/register',
+                "name": "Register Account"
+            },
+            {
+                "url": endpoint + '/bank/send',
+                "name": "Send"
+            },
+            {
+                "url": endpoint + '/bank/top',
+                "name": "Top Account"
+            }   
         ]
     },
     {
@@ -434,7 +470,11 @@ item_list = [
             {
                 "url": endpoint + '/lol?champion=yasuo',
                 "name": "Info Hero LOL"
-            }  
+            },
+            {
+                "url": endpoint + '/pokemon/search?name=Pikachu',
+                "name": "Search Pokemon"
+            }   
         ]
     },
     {
