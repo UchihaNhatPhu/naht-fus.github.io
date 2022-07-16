@@ -280,6 +280,11 @@ item_list = [
                 "name": "Mông"
             },
             {
+                "event": 'NSFW',
+                "url": endpoint + '/images/penissucking',
+                "name": "Penis Sucking"
+            },   
+            {
                 "event": 'HOT',
                 "url": endpoint + '/images/japanloli',
                 "name": "Japan Loli"
