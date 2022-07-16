@@ -152,7 +152,7 @@ item_list = [
     {
         event: 'HOT',
         name: 'Uptime Robot',
-        icon: 'fa-solid fa-robot',
+        icon: 'fa-solid fa-robot-astromech',
         item: [{
                 "url": endpoint + '/uptimerobot/create?url=https://JRTmain-2.ChuonCa.repl.co/&name=ChuonCa',
                 "name": "Uptime Create"
