@@ -7,6 +7,7 @@ message_list = [{
 
 item_list = [
     {
+        event: 'HOT',
         name: 'APIKEY',
         icon: 'fa-solid fa-pen-alt',
         item: [{
@@ -160,6 +161,7 @@ item_list = [
         ]
     },
     {
+        event: 'HOT',
         name: 'Email',
         icon: 'fa-solid fa-envelope',
         item: [{
@@ -198,6 +200,33 @@ item_list = [
         ]
     },
     {
+        event: 'HOT',
+        name: 'Comic',
+        icon: 'fas fa-booke',
+        item: [{
+                "url": endpoint + '/hentaiz/list',
+                "name": "Danh sách truyện Hentaiz"
+            },
+            {
+                "url": endpoint + '/hentaiz/read?id=12&chapter=1',
+                "name": "Đọc truyện hentaiz"
+            },
+            {
+                "url": endpoint + '/hentaiz/contribute?link=http://nhattruyenmoi.com/truyen-tranh/bong-nhien-toi-tro-thanh-qua-den-63515&name=1',
+                "name": "Đóng góp truyện Hentaiz"
+            },
+            {
+                "url": endpoint + '/hentaiz/data',
+                "name": "Dữ liệu truyện hentaiz"
+            },
+            {
+                "url": endpoint + '/hentaiz/data1',
+                "name": "Dữ liệu đóng góp truyện hentaiz"
+            }    
+        ]
+    },
+    {
+        event: 'HOT',
         name: 'Bank',
         icon: 'fas fa-university',
         item: [{
@@ -476,6 +505,7 @@ item_list = [
         ]
     },
     {
+        event: 'HOT',
         name: 'Data',
         icon: 'fa-solid fa-scroll fa-flip',
         item: [{
@@ -510,6 +540,7 @@ item_list = [
         ]
     },
     {
+        event: 'INFORMATION',
         name: 'Liên hệ Admin',
         icon: 'fas fa-user-headset',
         item: [{
