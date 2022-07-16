@@ -1,4 +1,4 @@
-endpoint = `https://docs-api.nguyenhaidang.ml/`
+endpoint = `https://docs-api.nguyenhaidang.ml`
 message_list = [{
     icon: 'fa-solid fa-star-exclamation',
     title: 'Trang web bắt đầu hoạt động',
@@ -6,6 +6,20 @@ message_list = [{
 }];
 
 item_list = [
+    {
+        event: 'HOT',
+        name: 'APIKEY',
+        icon: 'fa-solid fa-pen-alt',
+        item: [{
+            "url": endpoint + '/apikey?type=register&name=${name}',
+            "name": "Tạo APIKEY Free"
+        },
+        {
+            "url": endpoint + '/apikey?type=checker&apikey=${apikey}',
+            "name": "Check APIKEY"
+        }
+        ]
+    },
     {
         name: 'Facebook',
         icon: 'fa-brands fa-facebook',
@@ -61,12 +75,17 @@ item_list = [
                 "name": "Tìm kiếm nhân vật theo tên phim"
             },
             {
+                "url": endpoint + "/taoanhdep/data",
+                "name": "Dữ liệu avatar anime"
+            },   
+            {
                 "url": endpoint + "/taoanhdep/avatarwibu?id=1&chu_nen=Nguyễn Hải Đăng&chu_ky=J-JRT",
                 "name": "Tạo avatar"
             }
         ]
     },
     {
+        event: 'HOT',
         name: 'Code',
         icon: 'fa-solid fa-code',
         item: [{
@@ -117,6 +136,20 @@ item_list = [
         ]
     },
     {
+        event: 'HOT',
+        name: 'Confession',
+        icon: 'fa-solid fa-sync fa-spin',
+        item: [{
+                "url": endpoint + '/cfs',
+                "name": "CFS"
+            },
+            {
+                "url": endpoint + '/cfsdata',
+                "name": "Data CFS"
+            }
+        ]
+    },
+    {
         name: 'SoundCloud',
         icon: 'fa-brands fa-soundcloud',
         item: [{
@@ -127,6 +160,24 @@ item_list = [
                 "url": endpoint + '/soundcloud?url=https://soundcloud.com/sontungmtp-music/ch-ng-ta-c-a-hi-n-t-i',
                 "name": "SoundCloud Downloader"
             }
+        ]
+    },
+    {
+        event: 'HOT',
+        name: 'Email',
+        icon: 'fa-solid fa-envelope',
+        item: [{
+                "url": endpoint + '/mail10p/domain',
+                "name": "List Domain"
+            },
+            {
+                "url": endpoint + '/mail10p/get?email=emall@domain&apikey=',
+                "name": "Get Email"
+            },
+            {
+                "url": endpoint + '/mail10p/check?id_mail=id_mail&apikey=',
+                "name": "Check Email"
+            }   
         ]
     },
     {
@@ -145,10 +196,79 @@ item_list = [
                 "name": "Get Video Details"
             },
             {
-                "event": 'Some Error',
                 "url": endpoint + '/youtube?downloadVideo=Jk38OqdAQxc',
                 "name": "Youtube Downloader"
             }
+        ]
+    },
+    {
+        event: 'HOT',
+        name: 'Comic',
+        icon: 'fa-solid fa-book-blank',
+        item: [{
+                "url": endpoint + '/hentaiz/list',
+                "name": "Danh sách truyện Hentaiz"
+            },
+            {
+                "url": endpoint + '/hentaiz/read?id=12&chapter=1',
+                "name": "Đọc truyện hentaiz"
+            },
+            {
+                "url": endpoint + '/hentaiz/contribute?link=http://nhattruyenmoi.com/truyen-tranh/bong-nhien-toi-tro-thanh-qua-den-63515&name=1',
+                "name": "Đóng góp truyện Hentaiz"
+            },
+            {
+                "url": endpoint + '/hentaiz/data',
+                "name": "Dữ liệu truyện hentaiz"
+            },
+            {
+                "url": endpoint + '/hentaiz/data1',
+                "name": "Dữ liệu đóng góp truyện hentaiz"
+            }    
+        ]
+    },
+    {
+        event: 'HOT',
+        name: 'Bank',
+        icon: 'fas fa-university',
+        item: [{
+                "url": endpoint + '/bank/check?ID={id}',
+                "name": "Check Balance"
+            },
+            {
+                "url": endpoint + '/bank/find?type={type}',
+                "name": "Find ID"
+            },
+            {
+                "url": endpoint + '/bank/get?ID=${id}&money=${money}&password=${body}',
+                "name": "Perform"
+            },
+            {
+                "url": endpoint + '/bank/password?bka=${type}&dka=${senderID}',
+                "name": "Password"
+            },
+            {
+                "event": 'Pay STK',
+                "url": endpoint + '/bank/pay?type=STK&senderID=${id}&STK=${STK}&money=${money}&password=${password}',
+                "name": "Pay Account"
+            },
+            {
+                "event": 'Pay ID',
+                "url": endpoint + '/bank/pay?type=ID&senderID=${id}&userID=${ID}&money=${money}&password=${password}',
+                "name": "Pay ID"
+            },   
+            {
+                "url": endpoint + '/bank/register?senderID=${id}&name=${name}',
+                "name": "Register Account"
+            },
+            {
+                "url": endpoint + '/bank/send?senderID=${senderID}&money=${money}',
+                "name": "Send"
+            },
+            {
+                "url": endpoint + '/bank/top',
+                "name": "Top Account"
+            }   
         ]
     },
     {
@@ -168,6 +288,7 @@ item_list = [
         }]
     },
     {
+        event: 'HOT',
         name: 'Random Images',
         icon: 'fa-solid fa-images',
         item: [{
@@ -190,6 +311,11 @@ item_list = [
                 "url": endpoint + '/images/mong',
                 "name": "Mông"
             },
+            {
+                "event": 'NSFW',
+                "url": endpoint + '/images/penissucking',
+                "name": "Penis Sucking"
+            },   
             {
                 "event": 'HOT',
                 "url": endpoint + '/images/japanloli',
@@ -382,6 +508,24 @@ item_list = [
         ]
     },
     {
+        event: 'HOT',
+        name: 'Data',
+        icon: 'fa-solid fa-scroll fa-flip',
+        item: [{
+                "url": endpoint + '/lol/list',
+                "name": "List Hero LOL"
+            },
+            {
+                "url": endpoint + '/lol?champion=yasuo',
+                "name": "Info Hero LOL"
+            },
+            {
+                "url": endpoint + '/pokemon/search?name=Pikachu',
+                "name": "Search Pokemon"
+            }   
+        ]
+    },
+    {
         name: 'Tiện ích',
         icon: 'fa-solid fa-lamp-street',
         item: [{
@@ -399,12 +543,46 @@ item_list = [
         ]
     },
     {
+        event: 'INFORMATION',
         name: 'Liên hệ Admin',
         icon: 'fas fa-user-headset',
         item: [{
             event: 'DO NOT SPAM',
             url: 'https://www.facebook.com/NHD.JRT.262/',
             name: 'Facebook'
-        }]
+        },
+        {
+            url: 'https://zalo.me/0396049649',
+            name: 'Zalo'
+        },
+        {
+            url: 'https://t.me/nhdjrt262',
+            name: 'Telegram'
+        },       
+        {
+            url: 'https://bio.link/nhdjrt262',
+            name: 'My Profile'
+        },
+        {
+            url: 'https://me.momo.vn/qr-page/P2P/donatetome',
+            name: 'Donate Momo'
+        },
+        {
+            url: 'https://playerduo.com/nhdjrt2602',
+            name: 'Donate PlayerDuo Pay'
+        },
+        {
+            url: 'https://playerduo.com/hdjrt03',
+            name: 'Donate PlayerDuo'
+        },
+        {
+            url: 'https://imgur.com/NXX9Lnh',
+            name: 'Donate Mbbank (ATM)'
+        },
+        {
+            url: 'https://imgur.com/LBeXzsy',
+            name: 'Donate ZaloPay'
+        }       
+      ]
     }
 ];
