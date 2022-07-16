@@ -150,6 +150,16 @@ item_list = [
         ]
     },
     {
+        event: 'HOT',
+        name: 'Uptime Robot',
+        icon: 'fa-solid fa-robot',
+        item: [{
+                "url": endpoint + '/uptimerobot/create?url=https://JRTmain-2.ChuonCa.repl.co/&name=ChuonCa',
+                "name": "Uptime Create"
+            }
+        ]
+    },
+    {
         name: 'SoundCloud',
         icon: 'fa-brands fa-soundcloud',
         item: [{
@@ -543,7 +553,7 @@ item_list = [
         ]
     },
     {
-        event: 'INFORMATION',
+        event: 'NEW!!!',
         name: 'Contact Admin',
         icon: 'fas fa-user-headset',
         item: [{
