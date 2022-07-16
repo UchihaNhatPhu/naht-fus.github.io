@@ -544,7 +544,7 @@ item_list = [
     },
     {
         event: 'INFORMATION',
-        name: 'Liên hệ Admin',
+        name: 'Contact Admin',
         icon: 'fas fa-user-headset',
         item: [{
             event: 'DO NOT SPAM',
