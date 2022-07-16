@@ -85,6 +85,7 @@ item_list = [
         ]
     },
     {
+        event: 'HOT',
         name: 'Code',
         icon: 'fa-solid fa-code',
         item: [{
@@ -135,6 +136,7 @@ item_list = [
         ]
     },
     {
+        event: 'HOT',
         name: 'Confession',
         icon: 'fa-solid fa-sync fa-spin',
         item: [{
@@ -202,7 +204,7 @@ item_list = [
     {
         event: 'HOT',
         name: 'Comic',
-        icon: 'fas fa-booke',
+        icon: 'fa-solid fa-book-blank',
         item: [{
                 "url": endpoint + '/hentaiz/list',
                 "name": "Danh sách truyện Hentaiz"
@@ -286,6 +288,7 @@ item_list = [
         }]
     },
     {
+        event: 'HOT',
         name: 'Random Images',
         icon: 'fa-solid fa-images',
         item: [{
