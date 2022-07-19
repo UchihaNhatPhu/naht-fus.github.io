@@ -21,6 +21,27 @@ item_list = [
         ]
     },
     {
+        name: 'Download Video Social',
+        icon: 'fa fa-cloud-download',
+        item: [{
+            "url": 'https://nguyenmanh.name.vn/facebook',
+            "name": "Download Video Facebook"
+        },
+        {
+            "url": 'https://nguyenmanh.name.vn/tiktok',
+            "name": "Download Video Tiktok"
+        },
+        {
+            "url": 'https://nguyenmanh.name.vn/youtube',
+            "name": "Download Video Youtube"
+        },
+        {
+            "url": 'https://nguyenmanh.name.vn/douyin',
+            "name": "Download Video Tiktok Douyin"
+        }       
+        ]
+    },
+    {
         name: 'Facebook',
         icon: 'fa-brands fa-facebook',
         item: [{
