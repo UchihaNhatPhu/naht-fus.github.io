@@ -63,17 +63,21 @@ item_list = [
         name: 'TikTok',
         icon: 'fa-brands fa-tiktok',
         item: [{
-                "url": endpoint + "/tiktok?url=https://vm.tiktok.com/ZMLMbkp82",
+                "url": endpoint + "/tiktok?url=https://vm.tiktok.com/https://vt.tiktok.com/ZSR6GJY2f/?k=1",
                 "name": "TikTok Downloader"
             },
             {
-                "url": endpoint + "/tiktok?search=son tung",
+                "url": endpoint + "/tiktok?search=hd.jrt03",
                 "name": "TikTok Search"
             },
             {
-                "url": endpoint + "/tiktok?username=ltkh2004",
+                "url": endpoint + "/tiktok?username=hd.jrt03",
                 "name": "TikTok Info User"
-            }
+            },
+            {
+                "url": endpoint + '/tiktok/info?username=hd.jrt03',
+                "name": "Tiktok Info User 2"
+            }   
         ]
     },
     {
