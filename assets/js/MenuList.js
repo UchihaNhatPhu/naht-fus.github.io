@@ -513,16 +513,44 @@ item_list = [
                 "name": "Đố vui 2"
             },
             {
-                "url": endpoint + '/game/dhbcv1',
+                "url": endpoint + '/game/dhbc',
                 "name": "Đuổi hình bắt chữ"
+            },
+            {
+                "url": endpoint + '/game/dhbcv1',
+                "name": "Đuổi hình bắt chữ 1"
             },
             {
                 "url": endpoint + '/game/dhbcv1',
                 "name": "Đuổi hình bắt chữ 2"
             },
             {
+                "url": endpoint + '/game/dhbcemj',
+                "name": "Đuổi hình bắt chữ Emoji"
+            },
+            {
+                "url": endpoint + '/game/lienquanquiz',
+                "name": "Đố vui Liên Quân"
+            },
+            {
                 "url": endpoint + '/game/linkword?word=ngu ngốc',
                 "name": "Nối từ"
+            },
+            {
+                "url": endpoint + '/game/csgo_grenade',
+                "name": "CSGO v1"
+            },
+            {
+                "url": endpoint + '/game/csgo_heavy',
+                "name": "CSGO v2"
+            },
+            {
+                "url": endpoint + '/game/csgo_knift',
+                "name": "CSGO v3"
+            },
+            {
+                "url": endpoint + '/game/csgo_random',
+                "name": "CSGO v4"
             },
             {
                 "url": endpoint + '/game/taixiu',
