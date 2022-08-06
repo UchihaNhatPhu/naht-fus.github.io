@@ -53,7 +53,7 @@ item_list = [
             "name": "Get Info"
         },
         {
-            "url": endpoint + '/downloadfb?url=https://www.facebook.com/watch?v=587760489446657',
+            "url": endpoint + '/facebook/video?url=https://www.facebook.com/watch?v=587760489446657',
             "name": "Tải video từ Facebook"
         }
         ]
