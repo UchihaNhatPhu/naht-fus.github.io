@@ -84,6 +84,15 @@ item_list = [
         ]
     },
     {
+        name: 'Twitter',
+        icon: 'fab fa-twitter-square',
+        item: [{
+                "url": endpoint + "/twitter/video?url=https://twitter.com/i/status/1555506548910092288",
+                "name": "Twitter Downloader"
+            }
+        ]
+    },
+    {
         name: 'Tạo avatar anime',
         icon: 'fa-solid fa-user-tie',
         item: [{
