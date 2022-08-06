@@ -45,12 +45,11 @@ item_list = [
         name: 'Facebook',
         icon: 'fa-brands fa-facebook',
         item: [{
-            "url": endpoint + '/finduid?url=https://www.facebook.com/NHD.JRT.262/',
+            "url": endpoint + '/facebook/finduid?url=https://www.facebook.com/NHD.JRT.262/',
             "name": "Find UID"
         },
         {
-            "event": 'Sắp có',
-            "url": endpoint + '/info?id=100033478361032',
+            "url": endpoint + '/facebook/info?uid=100033478361032',
             "name": "Get Info"
         },
         {
