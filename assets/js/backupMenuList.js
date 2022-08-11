@@ -21,19 +21,39 @@ item_list = [
         ]
     },
     {
+        name: 'Download Video Social',
+        icon: 'fa fa-cloud-download',
+        item: [{
+            "url": 'https://nguyenmanh.name.vn/facebook',
+            "name": "Download Video Facebook"
+        },
+        {
+            "url": 'https://nguyenmanh.name.vn/tiktok',
+            "name": "Download Video Tiktok"
+        },
+        {
+            "url": 'https://nguyenmanh.name.vn/youtube',
+            "name": "Download Video Youtube"
+        },
+        {
+            "url": 'https://nguyenmanh.name.vn/douyin',
+            "name": "Download Video Tiktok Douyin"
+        }       
+        ]
+    },
+    {
         name: 'Facebook',
         icon: 'fa-brands fa-facebook',
         item: [{
-            "url": endpoint + '/finduid?url=https://www.facebook.com/NHD.JRT.262/',
+            "url": endpoint + '/facebook/finduid?url=https://www.facebook.com/NHD.JRT.262/',
             "name": "Find UID"
         },
         {
-            "event": 'Sắp có',
-            "url": endpoint + '/info?id=100033478361032',
+            "url": endpoint + '/facebook/info?uid=100033478361032',
             "name": "Get Info"
         },
         {
-            "url": endpoint + '/downloadfb?url=https://www.facebook.com/watch?v=587760489446657',
+            "url": endpoint + '/facebook/video?url=https://www.facebook.com/watch?v=587760489446657',
             "name": "Tải video từ Facebook"
         }
         ]
@@ -42,16 +62,33 @@ item_list = [
         name: 'TikTok',
         icon: 'fa-brands fa-tiktok',
         item: [{
-                "url": endpoint + "/tiktok?url=https://vm.tiktok.com/ZMLMbkp82",
+                "url": endpoint + "/tiktok?url=https://vm.tiktok.com/https://vt.tiktok.com/ZSR6GJY2f/?k=1",
                 "name": "TikTok Downloader"
             },
             {
-                "url": endpoint + "/tiktok?search=son tung",
+                "url": endpoint + '/tiktok/get?link=https://vt.tiktok.com/ZSR6GJY2f/?k=1',
+                "name": "Tiktok Downloader 2"
+            },   
+            {
+                "url": endpoint + "/tiktok?search=hd.jrt03",
                 "name": "TikTok Search"
             },
             {
-                "url": endpoint + "/tiktok?username=ltkh2004",
+                "url": endpoint + "/tiktok?username=hd.jrt03",
                 "name": "TikTok Info User"
+            },
+            {
+                "url": endpoint + '/tiktok/info?username=hd.jrt03',
+                "name": "Tiktok Info User 2"
+            }   
+        ]
+    },
+    {
+        name: 'Twitter',
+        icon: 'fab fa-twitter-square',
+        item: [{
+                "url": endpoint + "/twitter/video?url=https://twitter.com/i/status/1555506548910092288",
+                "name": "Twitter Downloader"
             }
         ]
     },
@@ -122,6 +159,10 @@ item_list = [
                 "name": "Đi cùng Tiki"
             },
             {
+                "url": endpoint + "/cccd?text1=Nguyễn%20Hải%20Đăng&text2=26/02/2003&text3=Nam&text4=TPHCM&urlimg=https://i.ibb.co/F0Y0rFr/279917930-5866733526676879-1511731601410750983-n.jpg",
+                "name": "Fake CCCD"
+            },   
+            {
                 "url": endpoint + "/thuphap?id=1&sodong=1&dong_1=Nguyễn Hải Đăng",
                 "name": "Chữ Thư Pháp"
             },
@@ -152,7 +193,7 @@ item_list = [
     {
         event: 'HOT',
         name: 'Uptime Robot',
-        icon: 'fa-solid fa-robot',
+        icon: 'fa-solid fa-robot-astromech',
         item: [{
                 "url": endpoint + '/uptimerobot/create?url=https://JRTmain-2.ChuonCa.repl.co/&name=ChuonCa',
                 "name": "Uptime Create"
@@ -313,6 +354,11 @@ item_list = [
             },
             {
                 "event": 'NSFW',
+                "url": endpoint + '/images/nudeok',
+                "name": "Nude"
+            },
+            {
+                "event": 'NSFW',
                 "url": endpoint + '/images/girl',
                 "name": "Girl"
             },
@@ -350,6 +396,11 @@ item_list = [
                 "event": 'HOT',
                 "url": endpoint + '/images/kurumi',
                 "name": "Kurumi"
+            },
+            {
+                "event": 'HOT',
+                "url": endpoint + '/images/wallpaper',
+                "name": "Wallpaper HOT"
             },
             {
                 "event": 'HOT',
@@ -488,16 +539,44 @@ item_list = [
                 "name": "Đố vui 2"
             },
             {
-                "url": endpoint + '/game/dhbcv1',
+                "url": endpoint + '/game/dhbc',
                 "name": "Đuổi hình bắt chữ"
+            },
+            {
+                "url": endpoint + '/game/dhbcv1',
+                "name": "Đuổi hình bắt chữ 1"
             },
             {
                 "url": endpoint + '/game/dhbcv1',
                 "name": "Đuổi hình bắt chữ 2"
             },
             {
+                "url": endpoint + '/game/dhbcemj',
+                "name": "Đuổi hình bắt chữ Emoji"
+            },
+            {
+                "url": endpoint + '/game/lienquanquiz',
+                "name": "Đố vui Liên Quân"
+            },
+            {
                 "url": endpoint + '/game/linkword?word=ngu ngốc',
                 "name": "Nối từ"
+            },
+            {
+                "url": endpoint + '/game/csgo_grenade',
+                "name": "CSGO v1"
+            },
+            {
+                "url": endpoint + '/game/csgo_heavy',
+                "name": "CSGO v2"
+            },
+            {
+                "url": endpoint + '/game/csgo_knift',
+                "name": "CSGO v3"
+            },
+            {
+                "url": endpoint + '/game/csgo_random',
+                "name": "CSGO v4"
             },
             {
                 "url": endpoint + '/game/taixiu',
