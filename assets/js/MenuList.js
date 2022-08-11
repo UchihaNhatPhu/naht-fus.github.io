@@ -354,6 +354,11 @@ item_list = [
             },
             {
                 "event": 'NSFW',
+                "url": endpoint + '/images/nudeok',
+                "name": "Nude"
+            },
+            {
+                "event": 'NSFW',
                 "url": endpoint + '/images/girl',
                 "name": "Girl"
             },
