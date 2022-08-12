@@ -66,13 +66,17 @@ item_list = [
                 "name": "TikTok Downloader"
             },
             {
-                "url": endpoint + '/tiktok/get?link=https://vt.tiktok.com/ZSR6GJY2f/?k=1',
+                "url": endpoint + '/tiktok/download?link=https://vt.tiktok.com/ZSR6GJY2f/?k=1',
                 "name": "Tiktok Downloader 2"
             },   
             {
                 "url": endpoint + "/tiktok?search=hd.jrt03",
                 "name": "TikTok Search"
             },
+            {
+                "url": endpoint + "/tiktok/trending",
+                "name": "TikTok Trending"
+            },   
             {
                 "url": endpoint + "/tiktok?username=hd.jrt03",
                 "name": "TikTok Info User"
