@@ -357,6 +357,7 @@ item_list = [
                 "name": "Dú"
             },
             {
+                "event": 'HOT',
                 "url": endpoint + '/images/siesta',
                 "name": "Siesta"
             },   
