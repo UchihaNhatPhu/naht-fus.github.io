@@ -473,7 +473,7 @@ item_list = [
             },
             {
                 "event": 'HOT',
-                "url": endpoint + '/images/gái',
+                "url": endpoint + '/images/gaixinhvn',
                 "name": "Gái xinh"
             },
             {
