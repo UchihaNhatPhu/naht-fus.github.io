@@ -55,7 +55,11 @@ item_list = [
         {
             "url": endpoint + '/facebook/video?url=https://www.facebook.com/watch?v=587760489446657',
             "name": "Tải video từ Facebook"
-        }
+        },
+        {
+            "url": 'https://getidfb.vorhaidang0123.repl.co/',
+            "name": "Lấy UID Facebook"
+        }       
         ]
     },
     {
