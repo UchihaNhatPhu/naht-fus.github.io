@@ -66,11 +66,11 @@ item_list = [
         name: 'TikTok',
         icon: 'fa-brands fa-tiktok',
         item: [{
-                "url": endpoint + "/tiktok?url=https://vm.tiktok.com/https://vt.tiktok.com/ZSR6GJY2f/?k=1",
+                "url": endpoint + "/tiktok?url=https://vm.tiktok.com/https://vt.tiktok.com/ZS8jhVtr3/",
                 "name": "TikTok Downloader"
             },
             {
-                "url": endpoint + '/tiktok/download?link=https://vt.tiktok.com/ZSR6GJY2f/?k=1',
+                "url": endpoint + '/tiktok/download?link=https://vt.tiktok.com/ZS8jhVtr3/',
                 "name": "Tiktok Downloader 2"
             },   
             {
@@ -95,7 +95,7 @@ item_list = [
         name: 'Twitter',
         icon: 'fab fa-twitter-square',
         item: [{
-                "url": endpoint + "/twitter/video?url=https://twitter.com/i/status/1555506548910092288",
+                "url": endpoint + "/twitter/video?url=https://twitter.com/b_dm12/status/1607003962292711424?s=20&t=CXAPUq93Y7DsHR2ViHXK5w",
                 "name": "Twitter Downloader"
             }
         ]
@@ -134,7 +134,7 @@ item_list = [
         name: 'Code',
         icon: 'fa-solid fa-code',
         item: [{
-                "url": 'https://deobfuscate.nguyenhaidang.ml/',
+                "url": 'https://deobfuscate.jrtxtracy.repl.co/',
                 "name": "Deobfuscate"
             },
             {
@@ -684,6 +684,10 @@ item_list = [
         {
             url: 'https://imgur.com/LBeXzsy',
             name: 'Donate ZaloPay'
+        },
+        {
+            url: 'https://i.imgur.com/vTx2DQp.jpg',
+            name: 'Donate Timo Bank (ATM)'
         }       
       ]
     }
