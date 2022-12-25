@@ -488,7 +488,7 @@ item_list = [
             {
                 "event": 'NSFW',
                 "url": endpoint + '/images/instagram',
-                "name": "instargram"
+                "name": "instagram"
             },
             {
                 "event": 'HOT',
