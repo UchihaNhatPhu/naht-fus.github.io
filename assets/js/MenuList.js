@@ -379,12 +379,17 @@ item_list = [
             {
                 "event": 'NSFW',
                 "url": endpoint + '/images/du',
-                "name": "Dú"
+                "name": "Ngực"
             },
             {
                 "event": 'HOT',
                 "url": endpoint + '/images/siesta',
                 "name": "Siesta"
+            },
+            {
+                "event": 'NSFW',
+                "url": endpoint + '/images/butter',
+                "name": "Butter"
             },   
             {
                 "event": 'NSFW',
@@ -514,7 +519,7 @@ item_list = [
             {
                 "event": 'NSFW',
                 "url": endpoint + '/images/instagram',
-                "name": "instagram"
+                "name": "Instagram"
             },
             {
                 "event": 'HOT',
