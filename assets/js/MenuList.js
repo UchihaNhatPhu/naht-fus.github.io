@@ -516,6 +516,11 @@ item_list = [
             },
              {
                 "event": 'HOT',
+                "url": endpoint + '/images/tokyo',
+                "name": "Tokyo Revengers"
+            },
+             {
+                "event": 'HOT',
                 "url": endpoint + '/images/khanhhuyen',
                 "name": "Khánh Huyền"
             },
