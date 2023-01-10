@@ -433,9 +433,14 @@ item_list = [
             },
             {
                 "event": 'HOT',
-                "url": endpoint + '/images/wallpaper',
-                "name": "Wallpaper HOT"
+                "url": endpoint + '/images/wall',
+                "name": "Wallpaper HD"
             },
+             {
+                "event": 'HOT',
+                "url": endpoint + '/images/wallpaper',
+                "name": "Wallpaper 4k"
+            },  
             {
                 "event": 'HOT',
                 "url": endpoint + '/images/loli',
