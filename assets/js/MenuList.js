@@ -351,12 +351,19 @@ item_list = [
         name: 'Random Videos',
         icon: 'fas fa-video',
         item: [{
+            "event": 'HOT',
             "url": endpoint + '/video/gaixinh',
             "name": "Gái xinh"
         },
             {
+                "event": 'HOT',
                 "url": endpoint + '/video/anime',
                 "name": "Anime"
+            },
+               {
+                "event": 'NSFW',
+                "url": endpoint + '/video/sex',
+                "name": "Sex 18+"
             }
         ]
     },
