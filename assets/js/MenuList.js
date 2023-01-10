@@ -347,6 +347,20 @@ item_list = [
         }]
     },
     {
+        event:'HOT',
+        name: 'Random Videos',
+        icon: 'fas fa-video',
+        item: [{
+            "url": endpoint + '/video/gaixinh',
+            "name": "Gái xinh"
+        },
+            {
+                "url": endpoint + '/video/anime',
+                "name": "Anime"
+            }
+        ]
+    },
+    {
         event: 'HOT',
         name: 'Random Images',
         icon: 'fa-solid fa-images',
