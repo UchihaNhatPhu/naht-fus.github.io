@@ -534,6 +534,11 @@ item_list = [
                 "url": endpoint + '/images/ngoctrinh',
                 "name": "Ngọc Trinh"
             },
+               {
+                "event": 'HOT',
+                "url": endpoint + '/images/trai',
+                "name": "Trai"
+            },
             {
                 "event": 'NSFW',
                 "url": endpoint + '/images/twitter',
