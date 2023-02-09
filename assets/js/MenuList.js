@@ -38,6 +38,10 @@ item_list = [
         {
             "url": 'https://nguyenmanh.name.vn/douyin',
             "name": "Download Video Tiktok Douyin"
+        },
+        {
+            "url": 'https://nguyenmanh.name.vn/videodl',
+            "name": "Download All Video No Logo"
         }       
         ]
     },
