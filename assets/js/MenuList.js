@@ -61,7 +61,7 @@ item_list = [
             "name": "Tải video từ Facebook"
         },
         {
-            "url": 'https://getidfb.vorhaidang0123.repl.co/',
+            "url": 'https://getid.maihoang04.repl.co/',
             "name": "Lấy UID Facebook"
         }       
         ]
