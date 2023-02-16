@@ -17,6 +17,14 @@ item_list = [
         {
             "url": endpoint + '/apikey?type=checker&apikey=${apikey}',
             "name": "Check APIKEY"
+        },
+        {
+            "url": 'https://bit.ly/JRTxTracy',
+            "name": "Hướng dẫn tạo API_KEY"
+        },
+        {
+            "url": 'https://i.imgur.com/odcEJWo.png',
+            "name": "Mã QR tạo API_KEY"
         }
         ]
     },
