@@ -12,7 +12,7 @@ item_list = [
         icon: 'fa-solid fa-pen-alt',
         item: [{
             "url": endpoint + '/apikey?type=register&name=${name}',
-            "name": "Tạo APIKEY Free"
+            "name": "Get APIKEY Free"
         },
         {
             "url": endpoint + '/apikey?type=checker&apikey=${apikey}',
@@ -721,6 +721,10 @@ item_list = [
         {
             url: 'https://playerduo.com/hdjrt03',
             name: 'Donate PlayerDuo'
+        },
+        {
+            "url": endpoint + '/apikey?type=register&name=${name}&apikey=JRTxTracy_VIP',
+            "name": "Get API_KEY Vip"
         },
         {
             url: 'https://imgur.com/NXX9Lnh',
