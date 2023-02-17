@@ -378,28 +378,32 @@ item_list = [
                 "name": "Sex 18+"
             },
             {
-                "url": endpoint + '/video/anime?apikey=điền api_key vào đây',
-                "name": "Aqua"
+                "url": endpoint + '/video/chill?apikey=điền api_key vào đây',
+                "name": "Nhạc Chill"
             },
             {
-                "url": endpoint + '/video/anime?apikey=điền api_key vào đây',
-                "name": "Aqua"
+                "url": endpoint + '/video/doraemon?apikey=điền api_key vào đây',
+                "name": "Doraemon"
             },
             {
-                "url": endpoint + '/video/anime?apikey=điền api_key vào đây',
-                "name": "Aqua"
+                "url": endpoint + '/video/genshin?apikey=điền api_key vào đây',
+                "name": "Genshin"
             },
             {
-                "url": endpoint + '/video/anime?apikey=điền api_key vào đây',
-                "name": "Aqua"
+                "url": endpoint + '/video/goku?apikey=điền api_key vào đây',
+                "name": "Goku"
             },
             {
-                "url": endpoint + '/video/anime?apikey=điền api_key vào đây',
-                "name": "Aqua"
+                "url": endpoint + '/video/nhacmoingay?apikey=điền api_key vào đây',
+                "name": "Nhạc hay"
             },
             {
-                "url": endpoint + '/video/anime?apikey=điền api_key vào đây',
-                "name": "Aqua"
+                "url": endpoint + '/video/nhacytb?apikey=điền api_key vào đây',
+                "name": "Nhạc YTB"
+            },
+            {
+                "url": endpoint + '/video/soundcl?apikey=điền api_key vào đây',
+                "name": "Nhạc Soundcloud"
             }   
         ]
     },
