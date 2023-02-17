@@ -29,6 +29,7 @@ item_list = [
         ]
     },
     {
+        event: 'HOT',
         name: 'Download Video Social',
         icon: 'fa fa-cloud-download',
         item: [{
@@ -54,6 +55,7 @@ item_list = [
         ]
     },
     {
+        event: 'HOT',
         name: 'Facebook',
         icon: 'fa-brands fa-facebook',
         item: [{
@@ -75,6 +77,7 @@ item_list = [
         ]
     },
     {
+        event: 'HOT',
         name: 'TikTok',
         icon: 'fa-brands fa-tiktok',
         item: [{
@@ -104,6 +107,7 @@ item_list = [
         ]
     },
     {
+        event: 'HOT',
         name: 'Twitter',
         icon: 'fab fa-twitter-square',
         item: [{
@@ -113,6 +117,7 @@ item_list = [
         ]
     },
     {
+        event: 'HOT',
         name: 'Tạo avatar anime',
         icon: 'fa-solid fa-user-tie',
         item: [{
@@ -156,6 +161,7 @@ item_list = [
         ]
     },
     {
+        event: 'HOT',
         name: 'Canvas',
         icon: 'fa-solid fa-diagram-lean-canvas',
         item: [{
@@ -221,6 +227,7 @@ item_list = [
         ]
     },
     {
+        event: 'HOT',
         name: 'SoundCloud',
         icon: 'fa-brands fa-soundcloud',
         item: [{
@@ -252,6 +259,7 @@ item_list = [
         ]
     },
     {
+        event: 'HOT',
         name: 'Youtube',
         icon: 'fa-brands fa-youtube',
         item: [{
@@ -343,6 +351,7 @@ item_list = [
         ]
     },
     {
+        event: 'HOT',
         name: 'Short Url',
         icon: 'fa-solid fa-curling-stone',
         item: [{
@@ -351,6 +360,7 @@ item_list = [
         }]
     },
     {
+        event: 'HOT',
         name: 'Pinterest',
         icon: 'fa-brands fa-pinterest',
         item: [{
@@ -405,6 +415,68 @@ item_list = [
                 "url": endpoint + '/video/soundcl?apikey=điền api_key vào đây',
                 "name": "Nhạc Soundcloud"
             }   
+        ]
+    },
+    {
+        event: 'HOT',
+        name: 'NSFW',
+        icon: 'fa-brands fa-facebook',
+        item: [{
+            "url": endpoint + '/nsfw/ausand?apikey=điền api_key vào đây',
+            "name": "Ausand"
+        },
+        {
+            "url": endpoint + '/nsfw/butter?apikey=điền api_key vào đây',
+            "name": "Butter"
+        },
+        {
+            "url": endpoint + '/nsfw/du?apikey=điền api_key vào đây',
+            "name": "Ngực"
+        },     
+        {
+            "url": endpoint + '/nsfw/gaisexy?apikey=điền api_key vào đây',
+            "name": "Gái Sexy"
+        },   
+        {
+            "url": endpoint + '/nsfw/hana?apikey=điền api_key vào đây',
+            "name": "Hana"
+        },     
+        {
+            "url": endpoint + '/nsfw/ig?apikey=điền api_key vào đây',
+            "name": "Instagram"
+        },       
+        {
+            "url": endpoint + '/nsfw/mong?apikey=điền api_key vào đây',
+            "name": "Mông"
+        },     
+        {
+            "url": endpoint + '/nsfw/naughty?apikey=điền api_key vào đây',
+            "name": "Naughty"
+        },  
+        {
+            "url": endpoint + '/nsfw/nsfw?apikey=điền api_key vào đây',
+            "name": "NSFW"
+        }, 
+        {
+            "url": endpoint + '/nsfw/nude?apikey=điền api_key vào đây',
+            "name": "Nude"
+        },       
+        {
+            "url": endpoint + '/nsfw/penissucking?apikey=điền api_key vào đây',
+            "name": "Penissucking"
+        },       
+        {
+            "url": endpoint + '/nsfw/sex?apikey=điền api_key vào đây',
+            "name": "Sex 18+"
+        },       
+        {
+            "url": endpoint + '/nsfw/tw?apikey=điền api_key vào đây',
+            "name": "Twitter"
+        },       
+        {
+            "url": endpoint + '/nsfw/vsbg?apikey=điền api_key vào đây',
+            "name": "VSBG"
+        },       
         ]
     },
     {
@@ -550,6 +622,7 @@ item_list = [
         ]
     },
     {
+        event: 'HOT',
         name: 'Simsimi',
         icon: 'fa-solid fa-message-bot',
         item: [{
@@ -563,6 +636,7 @@ item_list = [
         ]
     },
     {
+        event: 'HOT',
         name: 'Games',
         icon: 'fa-solid fa-gamepad',
         item: [{
@@ -650,6 +724,7 @@ item_list = [
         ]
     },
     {
+        event: 'HOT',
         name: 'Tiện ích',
         icon: 'fa-solid fa-lamp-street',
         item: [{
