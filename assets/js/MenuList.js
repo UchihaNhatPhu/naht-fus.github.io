@@ -384,15 +384,141 @@ item_list = [
         name: 'Random Images',
         icon: 'fa-solid fa-images',
         item: [{
-                "event": 'NSFW',
-                "url": endpoint + '/images/ausand',
-                "name": "Ausand"
+                "url": endpoint + '/images/anime?apikey=điền api_key vào đây',
+                "name": "Anime"
             },
             {
-                "event": 'NSFW',
-                "url": endpoint + '/images/twitter',
-                "name": "Twitter"
-            }
+                "url": endpoint + '/images/animememe?apikey=điền api_key vào đây',
+                "name": "Anime Meme"
+            },
+            {
+                "url": endpoint + '/images/animev2?apikey=điền api_key vào đây',
+                "name": "Anime v2"
+            },
+            {
+                "url": endpoint + '/images/avatar?apikey=điền api_key vào đây',
+                "name": "Avatar"
+            },
+            {
+                "url": endpoint + '/images/capdoi?apikey=điền api_key vào đây',
+                "name": "Cặp đôi"
+            },
+            {
+                "url": endpoint + '/images/cosplay?apikey=điền api_key vào đây',
+                "name": "Cosplay"
+            },
+            {
+                "url": endpoint + '/images/gainhat?apikey=điền api_key vào đây',
+                "name": "Gái nhật"
+            },
+            {
+                "url": endpoint + '/images/gaixinhvn?apikey=điền api_key vào đây',
+                "name": "Gái xinh VN"
+            },
+            {
+                "url": endpoint + '/images/ghost?apikey=điền api_key vào đây',
+                "name": "Ghost"
+            },
+            {
+                "url": endpoint + '/images/girl?apikey=điền api_key vào đây',
+                "name": "Gái"
+            },   
+            {
+                "url": endpoint + '/images/hoathinh?apikey=điền api_key vào đây',
+                "name": "Cartoon Network"
+            },
+            {
+                "url": endpoint + '/images/jack?apikey=điền api_key vào đây',
+                "name": "Jack (J97)"
+            },
+            {
+                "url": endpoint + '/images/jimmy?apikey=điền api_key vào đây',
+                "name": "Jimmy"
+            },
+            {
+                "url": endpoint + '/images/khanhhuyen?apikey=điền api_key vào đây',
+                "name": "Khánh Huyền"
+            },
+            {
+                "url": endpoint + '/images/lebong?apikey=điền api_key vào đây',
+                "name": "Lê Bống"
+            },
+            {
+                "url": endpoint + '/images/lienquan?apikey=điền api_key vào đây',
+                "name": "Liên Quân"
+            },
+            {
+                "url": endpoint + '/images/lnd?apikey=điền api_key vào đây',
+                "name": "Linh Ngọc Đàm"
+            },   
+            {
+                "url": endpoint + '/images/nendienthoai?apikey=điền api_key vào đây',
+                "name": "Nền Điện Thoại"
+            },
+            {
+                "url": endpoint + '/images/ngoctrinh?apikey=điền api_key vào đây',
+                "name": "Ngọc Trinh"
+            },
+            {
+                "url": endpoint + '/images/tokyo?apikey=điền api_key vào đây',
+                "name": "Tokyo Revengers"
+            },
+            {
+                "url": endpoint + '/images/trai?apikey=điền api_key vào đây',
+                "name": "Trai"
+            },
+            {
+                "url": endpoint + '/images/wallpaper?apikey=điền api_key vào đây',
+                "name": "Wallpaper"
+            },
+            {
+                "url": endpoint + '/images/aqua?apikey=điền api_key vào đây',
+                "name": "Aqua"
+            },   
+            {
+                "url": endpoint + '/images/chitanda?apikey=điền api_key vào đây',
+                "name": "Chitanda"
+            },
+            {
+                "url": endpoint + '/images/kana?apikey=điền api_key vào đây',
+                "name": "Kana"
+            },
+            {
+                "url": endpoint + '/images/kurumi?apikey=điền api_key vào đây',
+                "name": "Kurumi"
+            },
+            {
+                "url": endpoint + '/images/loli?apikey=điền api_key vào đây',
+                "name": "Loli"
+            },  
+            {
+                "url": endpoint + '/images/lolicon?apikey=điền api_key vào đây',
+                "name": "Lolicon"
+            },
+            {
+                "url": endpoint + '/images/lucy?apikey=điền api_key vào đây',
+                "name": "Lucy"
+            },  
+            {
+                "url": endpoint + '/images/mirai?apikey=điền api_key vào đây',
+                "name": "Mirai"
+            }, 
+            {
+                "url": endpoint + '/images/rem?apikey=điền api_key vào đây',
+                "name": "Rem"
+            },   
+            {
+                "url": endpoint + '/images/sagiri?apikey=điền api_key vào đây',
+                "name": "Sagiri"
+            },  
+            {
+                "url": endpoint + '/images/siesta?apikey=điền api_key vào đây',
+                "name": "Siesta"
+            },   
+            {
+                "url": endpoint + '/images/umaru?apikey=điền api_key vào đây',
+                "name": "Umaru"
+            },   
         ]
     },
     {
