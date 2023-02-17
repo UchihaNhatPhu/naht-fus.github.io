@@ -420,7 +420,7 @@ item_list = [
     {
         event: 'HOT',
         name: 'NSFW',
-        icon: 'fa-brands fa-facebook',
+        icon: 'fas fa-user-secret',
         item: [{
             "url": endpoint + '/nsfw/ausand?apikey=điền api_key vào đây',
             "name": "Ausand"
