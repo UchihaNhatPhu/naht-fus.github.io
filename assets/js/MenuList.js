@@ -364,19 +364,43 @@ item_list = [
         icon: 'fas fa-video',
         item: [{
             "event": 'HOT',
-            "url": endpoint + '/video/gaixinh',
+            "url": endpoint + '/video/gaixinh?apikey=điền api_key vào đây',
             "name": "Gái xinh"
         },
             {
                 "event": 'HOT',
-                "url": endpoint + '/video/anime',
+                "url": endpoint + '/video/anime?apikey=điền api_key vào đây',
                 "name": "Anime"
             },
                {
                 "event": 'NSFW',
-                "url": endpoint + '/video/sex',
+                "url": endpoint + '/video/sex?apikey=điền api_key vào đây',
                 "name": "Sex 18+"
-            }
+            },
+            {
+                "url": endpoint + '/video/anime?apikey=điền api_key vào đây',
+                "name": "Aqua"
+            },
+            {
+                "url": endpoint + '/video/anime?apikey=điền api_key vào đây',
+                "name": "Aqua"
+            },
+            {
+                "url": endpoint + '/video/anime?apikey=điền api_key vào đây',
+                "name": "Aqua"
+            },
+            {
+                "url": endpoint + '/video/anime?apikey=điền api_key vào đây',
+                "name": "Aqua"
+            },
+            {
+                "url": endpoint + '/video/anime?apikey=điền api_key vào đây',
+                "name": "Aqua"
+            },
+            {
+                "url": endpoint + '/video/anime?apikey=điền api_key vào đây',
+                "name": "Aqua"
+            }   
         ]
     },
     {
@@ -518,7 +542,7 @@ item_list = [
             {
                 "url": endpoint + '/images/umaru?apikey=điền api_key vào đây',
                 "name": "Umaru"
-            },   
+            }
         ]
     },
     {
