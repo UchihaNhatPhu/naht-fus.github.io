@@ -369,6 +369,28 @@ item_list = [
         }]
     },
     {
+        event: 'HOT',
+        name: 'Facebook',
+        icon: 'fa-brands fa-facebook',
+        item: [{
+            "url": endpoint + '/saying/hearing?apikey=điền api_key vào đây',
+            "name": "Câu thính"
+        },
+        {
+            "url": endpoint + '/saying/cadao?apikey=điền api_key vào đây',
+            "name": "Câu ca dao"
+        },
+        {
+            "url": endpoint + '/saying/bancobiet?apikey=điền api_key vào đây',
+            "name": "Bạn có biết ?"
+        },
+        {
+            "url": endpoint + '/saying/danhngon?apikey=điền api_key vào đây',
+            "name": "Câu danh ngôn"
+        }       
+        ]
+    },
+    {
         event:'HOT',
         name: 'Random Videos',
         icon: 'fas fa-video',
