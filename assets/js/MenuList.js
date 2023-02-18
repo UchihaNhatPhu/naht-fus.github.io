@@ -370,8 +370,8 @@ item_list = [
     },
     {
         event: 'HOT',
-        name: 'Facebook',
-        icon: 'fa-brands fa-facebook',
+        name: 'Câu nói',
+        icon: 'fas fa-book',
         item: [{
             "url": endpoint + '/saying/hearing?apikey=điền api_key vào đây',
             "name": "Câu thính"
