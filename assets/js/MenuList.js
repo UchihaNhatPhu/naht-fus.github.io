@@ -371,7 +371,7 @@ item_list = [
     {
         event: 'HOT',
         name: 'Câu nói',
-        icon: 'fas fa-book',
+        icon: 'fa fa-list-alt',
         item: [{
             "url": endpoint + '/saying/hearing?apikey=điền api_key vào đây',
             "name": "Câu thính"
