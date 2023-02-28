@@ -452,6 +452,10 @@ item_list = [
             "name": "Butter"
         },
         {
+            "url": endpoint + '/nsfw/hentaiz?apikey=điền api_key vào đây',
+            "name": "Hentaiz"
+        },       
+        {
             "url": endpoint + '/nsfw/du?apikey=điền api_key vào đây',
             "name": "Ngực"
         },     
